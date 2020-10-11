@@ -1,0 +1,103 @@
+@import './config';
+
+.about {
+    margin-top: 40px;
+    object-fit: contain;
+    /* align-content: center;
+    text-align: center; */
+    padding: 20px;
+    font-family: emoji;
+}
+
+.fieldset {
+    align-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0px 1px 7px grey;
+
+}
+
+.input_key {
+    width: 265px;
+    padding: 8px 10px;
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: -7px;
+    /* text-align: center; */
+}
+
+.input_key:focus {
+    background-color: lightblue;
+}
+
+.message_area {
+    margin: 5px 0px 0px;
+    width: 90%;
+    height: 110px;
+
+}
+
+.button {
+    margin-top: 5px;
+    width: 90%;
+    height: 34px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.wrap {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.your_msg {
+    /* text-shadow: .8px .1px red; */
+    color: orange;
+}
+
+.msg_output {
+    padding: 10px;
+    text-align: justify;
+    border: 1px solid black;
+    margin-top: 4px;
+}
+
+.key_output {
+    border: 1px solid black;
+    padding: 5px;
+    width: 50%;
+}
+
+.key_wrap {
+    text-align: right;
+    text-align: -webkit-right;
+    /* text-align: center; */
+    margin-bottom: -10px;
+}
+
+.key_wrap h5 {
+    text-align: -webkit-auto;
+    margin-bottom: 2px;
+    text-align: -webkit-right;
+}
+
+/* .form_msg{
+    box-shadow: 0px 1px 7px grey;
+} */
+/* .form_msg:hover{
+    color: #ff652f;
+} */
+.msg_wrap {
+    box-shadow: 0px 1px 7px grey;
+    border: 1px solid black;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.msg_decoded h5 {
+    margin-top: -12px;
+}
