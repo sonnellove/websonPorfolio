@@ -18,10 +18,7 @@ class Pages extends Controller {
     public function about() {
 
         $data = [
-            'profile' => '-A highly organized and hard-working individual looking for a responsible position to gain practical experience.  
-            -Ability to work independently or as part of a team.
-            - Leadership skills and ability to motivate.
-            ',
+            'profile' => 'Web Developer with a passion for web application. Hard working, organized, energetic and an eager person ready to learn.  Skilled in conceptualizing, designing, development, and deploying software containing logical and mathematical solutions to business problems. Dedicated to driving innovation with the ability to follow industry and technological trends and facilitating early adoption of ',
         ];
 
 
@@ -36,14 +33,9 @@ class Pages extends Controller {
             'encrypt'=> 'abcd'
         ];
 
-        // for($i=0; $)
-        
         $data['key']='key';
-
         $this->view('pages/contact', $data);
     }
-
-
 
     public function projects() {
         $data = [
@@ -66,9 +58,9 @@ class Pages extends Controller {
             '3' =>[
                 'img' => '/public/img/porfolio.PNG',
                 'link_Preview' => 'Preview',
-                'link_Preview_to' => '#!',
+                'link_Preview_to' => 'http://websonporfolio.freecluster.eu/',
                 'link_Github' => 'Github',
-                'link_Github_to' => '#!',
+                'link_Github_to' => 'https://github.com/sonnellove/websonPorfolio/',
                 'description' => 'My Portfolio'
 
             ],
